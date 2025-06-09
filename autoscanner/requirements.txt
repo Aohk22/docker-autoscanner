@@ -1,0 +1,5 @@
+pefile
+python-magic
+exifread
+requests
+python-dotenv
