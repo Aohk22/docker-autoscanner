@@ -12,8 +12,8 @@ from dotenv import load_dotenv
 URL_FILE = 'https://www.virustotal.com/api/v3/files'
 URL_SANDBOX_HTML = 'https://www.virustotal.com/api/v3/file_behaviours/sandbox_id/html'
 BUF_SIZE = 65536  
-OUTPUT_FOLDER = 'vt-output'
-REPORT_DIR = 'html-reports'
+OUTPUT_FOLDER = 'vt_output'
+REPORT_DIR = 'html_reports'
 REPORT_DIR_PATH = os.path.join(OUTPUT_FOLDER, REPORT_DIR)
 
 os.makedirs(REPORT_DIR_PATH, exist_ok=True)
