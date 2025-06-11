@@ -1,5 +1,5 @@
 if (-not $args[0]) {
-    echo Provide docker image.
+    echo "Provide docker image."
     exit 1
 }
 
