@@ -19,6 +19,7 @@ COPY autoscanner autoscanner
 WORKDIR /home/ltk/autoscanner
 RUN mkdir -p vt-output/html-reports
 
+RUN sed -i 's/\r$//' /entrypoint.sh
 RUN chmod +x autoscan.sh
 RUN chmod +x bins/trid
 RUN chmod +x scripts/*
